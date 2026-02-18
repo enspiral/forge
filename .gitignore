@@ -2,11 +2,6 @@
 .claude/commands/
 .logs/
 
-# Docusaurus
-handbook/node_modules/
-handbook/build/
-handbook/.docusaurus/
-
 # Next.js
 website/node_modules/
 website/.next/

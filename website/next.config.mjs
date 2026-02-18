@@ -1,7 +1,9 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  /* config options here */
-  reactStrictMode: true,
-};
+import nextra from 'nextra'
 
-export default nextConfig;
+const withNextra = nextra({})
+
+export default withNextra({
+  output: 'export',
+  basePath: '/forge',
+  images: { unoptimized: true },
+})
