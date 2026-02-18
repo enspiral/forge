@@ -142,7 +142,6 @@ export default function Home() {
 
       <main>
         <section style={styles.hero}>
-          <h1 style={styles.h1}>More people working on stuff that matters</h1>
           <p style={styles.tagline}>Ship it.</p>
           <p style={styles.intro}>
             Enspiral Forge is an{' '}
@@ -161,9 +160,9 @@ export default function Home() {
         <hr style={styles.divider} />
 
         <section style={styles.section}>
-          <h2 style={styles.h2}>10-week seasons</h2>
+          <h2 style={styles.h2}>8-week seasons</h2>
           <p style={styles.intro}>
-            The Forge runs in seasons — intensive 10-week incubators to get your project off the
+            The Forge runs in seasons — intensive 8-week incubators to get your project off the
             ground, culminating in a Demo Day where you share your work with the whole Enspiral network.
           </p>
 
@@ -178,7 +177,7 @@ export default function Home() {
             </div>
             <div style={styles.card}>
               <p style={styles.cardTitle}>Demo Day</p>
-              <p style={styles.cardText}>Ship your project in Week 10 and present to the network.</p>
+              <p style={styles.cardText}>Ship your project in Week 8 and present to the network.</p>
             </div>
           </div>
         </section>
@@ -193,7 +192,7 @@ export default function Home() {
             any member can choose to use one of their invites to bring you in.
           </p>
           <p style={styles.intro}>
-            <strong>Season fee:</strong> $200–$300 NZD sliding scale. Full scholarships available —
+            <strong>Season fee:</strong> $150–$250 NZD sliding scale. Full scholarships available —
             the suggested minimum is the value of a coffee per week.
           </p>
           <button
@@ -202,6 +201,16 @@ export default function Home() {
           >
             Apply to join
           </button>
+        </section>
+
+        <hr style={styles.divider} />
+
+        <section style={styles.section}>
+          <h2 style={styles.h2}>More people working on stuff that matters</h2>
+          <p style={styles.intro}>
+            That's the mission. The Forge exists to help people ship meaningful work — with the
+            backing of a community that's been doing this for over a decade.
+          </p>
         </section>
 
         <hr style={styles.divider} />
