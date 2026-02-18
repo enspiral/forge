@@ -1,0 +1,55 @@
+---
+sidebar_position: 1
+title: Membership Agreement
+---
+
+# Membership Agreement
+
+## Joining the node
+
+**New members join the node by being invited after participating in a season.**
+First-timers are inducted through a cohort-based onboarding process at the beginning of the season.
+
+**Season invitation**
+Seasons are invite-only. Node members can each invite up to three people to a season. Members of other Enspiral nodes are welcome to join a season without needing an invitation.
+
+We also reserve a small number of spots (currently 4) for people outside the Enspiral network who are invited by existing members.
+
+**Node invitation process**
+At the end of a season, any Forge node member who was part of the season can propose people for node membership in a Loomio proposal.
+
+Only existing Forge node members who were part of the season can vote on the proposal. It must run for at least a week and pass with no blocks for the new person to be invited to node membership.
+
+**Target size:** 20-30 active members.
+
+## Member engagement
+
+**Expected from you during a season:**
+- Join the weekly call
+- Pay the season fee
+- Ship your project in Week 10
+- Join the Demo Day to share your journey and project with the network
+
+**Opting out of a season**
+Members are expected to stay engaged with the node throughout the year. However, the seasonal structure allows members to take an intentional break by opting out of a particular season's activities.
+
+**Subscription fees**
+Subscriptions are paid at the beginning of a season. The season hosts can set the subscription price and define the process for partial or full subsidies.
+
+Current fee: **$200-$300 NZD sliding scale**, or a sum you're willing to sponsor. Full scholarships are available if finances are a constraint — the suggested minimum is the value of a coffee per week.
+
+If a member is part of another node then it is their decision whether to contribute to Forge or not.
+
+## Leaving the node
+
+**Community safety net**
+A member can be removed from the community by a supermajority vote of active node members (at least 75% of votes cast in favour of removal).
+
+Active members are defined as members who have completed at least one season and formally joined the node, and whose membership has not lapsed due to inactivity. All founding members are considered active members.
+
+**Inactivity**
+If a member opts out of three consecutive seasons, their membership lapses. They can rejoin the node by submitting a new application.
+
+## Enspiral Ops notification
+
+When a member joins or leaves the Forge node, the node hosts will communicate with [Enspiral Ops](https://handbook.enspiral.com) within **5 working days** so the global member database and communication platforms can be updated.
