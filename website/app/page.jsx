@@ -125,7 +125,13 @@ export default function Home() {
   return (
     <div style={styles.page}>
       <header style={styles.header}>
-        <span style={styles.logo}>Enspiral Forge</span>
+        <a href="https://enspiral.com" style={{ display: 'inline-block' }}>
+          <img
+            src="/forge/enspiral-logo.webp"
+            alt="Enspiral"
+            style={{ height: '40px', display: 'block' }}
+          />
+        </a>
       </header>
 
       <main>
