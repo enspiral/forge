@@ -6,3 +6,7 @@
 website/node_modules/
 website/.next/
 website/out/
+
+# Playwright
+.playwright-mcp/
+*.png
