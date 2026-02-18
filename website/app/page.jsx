@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link'
 
 const teal = '#03a196'
@@ -93,6 +95,9 @@ const styles = {
     borderRadius: '4px',
     fontSize: '1.05rem',
     fontWeight: 500,
+    fontFamily: "'Poppins', sans-serif",
+    border: 'none',
+    cursor: 'pointer',
   },
   divider: {
     border: 'none',
@@ -191,6 +196,12 @@ export default function Home() {
             <strong>Season fee:</strong> $200–$300 NZD sliding scale. Full scholarships available —
             the suggested minimum is the value of a coffee per week.
           </p>
+          <button
+            onClick={() => alert('This will link to an application form once Kate makes one!')}
+            style={styles.cta}
+          >
+            Apply to join
+          </button>
         </section>
 
         <hr style={styles.divider} />
