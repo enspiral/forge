@@ -1,0 +1,14 @@
+[    2408ms] Uncaught Error: Minified React error #200; visit https://reactjs.org/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at t.render (https://cdn.jsdelivr.net/gh/enspiral/community-react-page@v1.7/js-deliver/community.vendor.min.js:0:273295)
+    at 309 (https://cdn.jsdelivr.net/gh/enspiral/community-react-page@v1.7/js-deliver/community.main.min.js:0:7684)
+    at f (https://cdn.jsdelivr.net/gh/enspiral/community-react-page@v1.7/js-deliver/community-runtime.min.js:0:517)
+    at 107 (https://cdn.jsdelivr.net/gh/enspiral/community-react-page@v1.7/js-deliver/community.main.min.js:0:87)
+    at f (https://cdn.jsdelivr.net/gh/enspiral/community-react-page@v1.7/js-deliver/community-runtime.min.js:0:517)
+    at t (https://cdn.jsdelivr.net/gh/enspiral/community-react-page@v1.7/js-deliver/community-runtime.min.js:0:386)
+    at r (https://cdn.jsdelivr.net/gh/enspiral/community-react-page@v1.7/js-deliver/community-runtime.min.js:0:249)
+    at <anonymous> (https://cdn.jsdelivr.net/gh/enspiral/community-react-page@v1.7/js-deliver/community.vendor.min.js:0:46)
+[    2547ms] [WARNING] yui: NOT loaded: squarespace-cldr_resource_pack @ https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fbd854d40b0804b7-min.en-US.js:7
+[    2547ms] [WARNING] yui: NOT loaded: squarespace-common_vendors_stable @ https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fbd854d40b0804b7-min.en-US.js:7
+[    2547ms] [WARNING] yui: NOT loaded: squarespace-common_vendors @ https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fbd854d40b0804b7-min.en-US.js:7
+[    2548ms] [WARNING] yui: NOT loaded: squarespace-performance @ https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fbd854d40b0804b7-min.en-US.js:7
+[   36001ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://www.youtube.com/youtubei/v1/log_event?alt=json:0
