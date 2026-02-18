@@ -183,8 +183,9 @@ export default function Home() {
         <section style={styles.section}>
           <h2 style={styles.h2}>How to join</h2>
           <p style={styles.intro}>
-            Seasons are invite-only. Each node member can invite up to three people.
-            We also reserve spots for people outside the Enspiral network.
+            Know a member? Ask them for a direct invite. Don't know anyone yet?
+            Applications are welcome — they're shared with all node members, and
+            any member can choose to use one of their invites to bring you in.
           </p>
           <p style={styles.intro}>
             <strong>Season fee:</strong> $200–$300 NZD sliding scale. Full scholarships available —
