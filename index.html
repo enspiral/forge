@@ -246,11 +246,15 @@
   /* RHYTHM GRID */
   .rhythm-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 1px;
     background: var(--paper-dark);
     border: 1px solid var(--paper-dark);
     margin-top: 3.5rem;
+  }
+
+  @media (max-width: 700px) {
+    .rhythm-grid { grid-template-columns: 1fr 1fr; }
   }
 
   .rhythm-card {
@@ -258,11 +262,12 @@
     padding: 2rem 1.75rem;
   }
 
-  .rhythm-number {
-    font-family: var(--serif);
-    font-size: 2.5rem;
-    line-height: 1;
-    color: var(--ember);
+  .rhythm-tag {
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #4a7a2e;
     margin-bottom: 0.75rem;
     display: block;
   }
@@ -662,7 +667,7 @@
 
 <section class="section-human">
   <div class="inner">
-    <blockquote>"AI can shave days and months off shipping. But building alone — or just with a bot — can be <em>devastatingly lonely</em>. To be seen, to be challenged, to be held accountable by flesh and bone and warm nervous systems... I want that."</blockquote>
+    <blockquote>"AI can shave days and months off shipping. But building alone — or just with a bot — can be <em style="color:var(--ember);font-style:italic;">devastatingly lonely</em>. To be seen, to be challenged, to be held accountable by flesh and bone and warm nervous systems... I want that."</blockquote>
     <p>— What Forge is for</p>
   </div>
 </section>
@@ -676,24 +681,24 @@
 
   <div class="rhythm-grid">
     <div class="rhythm-card">
-      <span class="rhythm-number" style="color:#4a7a2e">01</span>
-      <h3>Weekly calls</h3>
+      <span class="rhythm-tag">Every week</span>
+      <h3>Weekly calls, peer coaching, feedback</h3>
       <p>Show up, share where you are, get unstuck. Weeks 1, 5, and 8 run 90 minutes. The rest are one hour.</p>
     </div>
     <div class="rhythm-card">
-      <span class="rhythm-number" style="color:#4a7a2e">02</span>
-      <h3>Peer coaching</h3>
-      <p>Small groups. Wise crowds. Troika consulting. Feedback from people who've built things and learned things the hard way.</p>
-    </div>
-    <div class="rhythm-card">
-      <span class="rhythm-number" style="color:#4a7a2e">03</span>
-      <h3>Your commitment</h3>
+      <span class="rhythm-tag">Between calls</span>
+      <h3>Work on your commitments</h3>
       <p>Each week you tell your peers what you'll do. Then you do it and you log it. Ship It is a level up in accountability.</p>
     </div>
     <div class="rhythm-card">
-      <span class="rhythm-number" style="color:#4a7a2e">08</span>
-      <h3>Demo Day</h3>
-      <p>Week 8. You present your project to the whole Enspiral network. There is no better forcing function than an audience.</p>
+      <span class="rhythm-tag">Throughout</span>
+      <h3>Receive support and encouragement</h3>
+      <p>Small groups. Wise crowds. Troika consulting. Feedback from people who've built things and learned things the hard way.</p>
+    </div>
+    <div class="rhythm-card">
+      <span class="rhythm-tag">Week 8</span>
+      <h3>Demo Day — show what you've shipped</h3>
+      <p>You present your project to the whole Enspiral network. There is no better forcing function than an audience.</p>
     </div>
   </div>
 </section>
