@@ -3,7 +3,9 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
-    paths: [website/**]
+    paths:
+      - website/**
+      - index.html
 
 permissions:
   contents: read
@@ -29,6 +31,7 @@ jobs:
           cache-dependency-path: website/package-lock.json
       - run: npm ci
       - run: npm run build
+      - run: cp ../index.html out/index.html
       - uses: actions/upload-pages-artifact@v3
         with:
           path: website/out
