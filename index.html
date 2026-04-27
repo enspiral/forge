@@ -614,6 +614,26 @@
   @keyframes fadeIn {
     to { opacity: 1; transform: none; }
   }
+
+.section-demo { background: #1a2e1a; padding: 6rem 2.5rem; }
+.section-demo .inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: start; }
+@media (max-width: 700px) { .section-demo .inner { grid-template-columns: 1fr; gap: 3rem; } }
+.demo-eyebrow { font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(200,255,180,0.6); font-weight: 600; margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.6rem; }
+.demo-eyebrow::before { content: ''; display: block; width: 18px; height: 2px; background: rgba(200,255,180,0.4); }
+.section-demo h2 { font-family: var(--serif); font-size: clamp(2rem, 4vw, 3rem); line-height: 1.15; margin-bottom: 1.5rem; color: #f0f5ec; }
+.section-demo p { font-size: 0.95rem; color: rgba(240,245,236,0.6); font-weight: 300; line-height: 1.75; margin-bottom: 1rem; }
+.section-demo p strong { color: #f0f5ec; font-weight: 500; }
+.demo-actions { display: flex; flex-direction: column; gap: 0.875rem; margin-top: 2.25rem; }
+.btn-demo-zoom { display: inline-block; padding: 1.1rem 2.5rem; background: #4a8c3f; color: #fff; text-decoration: none; font-size: 1rem; font-weight: 600; border-radius: 2px; text-align: center; }
+.btn-demo-zoom:hover { background: #3a7030; }
+.btn-demo-cal { display: inline-block; padding: 0.9rem 2.5rem; background: transparent; color: rgba(240,245,236,0.65); text-decoration: none; font-size: 0.9rem; border-radius: 2px; border: 1px solid rgba(240,245,236,0.2); text-align: center; }
+.btn-demo-cal:hover { border-color: rgba(240,245,236,0.5); color: #f0f5ec; }
+.demo-date-card { background: rgba(240,245,236,0.06); border: 1px solid rgba(240,245,236,0.12); border-radius: 2px; overflow: hidden; }
+.demo-date-header { background: rgba(74,140,63,0.3); padding: 1rem 1.5rem; font-size: 0.82rem; font-weight: 600; color: rgba(200,255,180,0.9); letter-spacing: 0.08em; text-transform: uppercase; }
+.demo-tz-row { display: flex; justify-content: space-between; padding: 0.7rem 1.5rem; font-size: 0.88rem; border-bottom: 1px solid rgba(240,245,236,0.06); }
+.demo-tz-label { color: rgba(240,245,236,0.45); }
+.demo-tz-time { font-weight: 500; color: #f0f5ec; }
+.demo-note { padding: 1rem 1.5rem; font-size: 0.78rem; color: rgba(240,245,236,0.3); border-top: 1px solid rgba(240,245,236,0.06); }
 </style>
 </head>
 <body>
@@ -763,6 +783,33 @@
     <div>
       <div class="demo-date-card">
         <div class="demo-date-header">Monday 19 May &mdash; 1.5 hours</div>
+        <div class="demo-tz-row"><span class="demo-tz-label">Central European (CET)</span><span class="demo-tz-time">07:00</span></div>
+        <div class="demo-tz-row"><span class="demo-tz-label">Auckland / Wellington (NZST)</span><span class="demo-tz-time">17:00</span></div>
+        <div class="demo-tz-row"><span class="demo-tz-label">Sydney / Melbourne (AEST)</span><span class="demo-tz-time">15:00</span></div>
+        <div class="demo-tz-row"><span class="demo-tz-label">New York (EDT)</span><span class="demo-tz-time">01:00 Tue</span></div>
+        <div class="demo-tz-row"><span class="demo-tz-label">Los Angeles (PDT)</span><span class="demo-tz-time">22:00 Sun</span></div>
+        <p class="demo-note">Optimised for Europe and Asia-Pacific timezones.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DEMO DAY -->
+<section class="section-demo" id="demoday">
+  <div class="inner">
+    <div>
+      <p class="demo-eyebrow">Season 1 - Week 8</p>
+      <h2>Demo Day - come watch them ship.</h2>
+      <p>Eight weeks of work, peer coaching, and weekly commitments - all leading to this. Join us to watch Season 1 participants present their projects to the Enspiral network.</p>
+      <p><strong>You are warmly invited.</strong> The more the merrier.</p>
+      <div class="demo-actions">
+        <a href="https://us06web.zoom.us/j/85031147000?pwd=IhtH6IwqjPOPxyu8lAQiu9JdgG1V8f.1" class="btn-demo-zoom" target="_blank">Join on Zoom</a>
+        <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Ship+It+Demo+Day+Enspiral+Forge&dates=20250519T050000Z/20250519T063000Z&details=Zoom:+https://us06web.zoom.us/j/85031147000&location=Zoom" class="btn-demo-cal" target="_blank">+ Add to Google Calendar</a>
+      </div>
+    </div>
+    <div>
+      <div class="demo-date-card">
+        <div class="demo-date-header">Monday 19 May - 1.5 hours</div>
         <div class="demo-tz-row"><span class="demo-tz-label">Central European (CET)</span><span class="demo-tz-time">07:00</span></div>
         <div class="demo-tz-row"><span class="demo-tz-label">Auckland / Wellington (NZST)</span><span class="demo-tz-time">17:00</span></div>
         <div class="demo-tz-row"><span class="demo-tz-label">Sydney / Melbourne (AEST)</span><span class="demo-tz-time">15:00</span></div>
