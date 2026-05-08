@@ -413,7 +413,7 @@ hr.rule { border: none; border-top: 1px solid var(--paper-dark); }
 
 /* ─── VOICES / TESTIMONIALS ─── */
 .section-voices {
-  background: var(--fuchsia);
+  background: var(--ink);
   padding: 5rem 2.5rem;
 }
 
@@ -426,14 +426,14 @@ hr.rule { border: none; border-top: 1px solid var(--paper-dark); }
   font-size: 0.72rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.6);
+  color: rgba(255,255,255,0.7);
   font-weight: 600;
   margin-bottom: 3rem;
   display: flex;
   align-items: center;
   gap: 0.6rem;
 }
-.voices-label::before { content: ''; display: block; width: 18px; height: 2px; background: rgba(255,255,255,0.4); }
+.voices-label::before { content: ''; display: block; width: 18px; height: 2px; background: rgba(255,255,255,0.5); }
 
 .voices-grid {
   display: grid;
@@ -444,17 +444,17 @@ hr.rule { border: none; border-top: 1px solid var(--paper-dark); }
 @media (max-width: 750px) { .voices-grid { grid-template-columns: 1fr; } }
 
 .voice-card {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.06);
   padding: 2rem;
   border-radius: 2px;
-  border: 1px solid rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.12);
 }
 
 .voice-card blockquote {
-  font-family: var(--serif);
-  font-style: italic;
-  font-size: 1.05rem;
-  line-height: 1.6;
+  font-family: var(--sans);
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.75;
   color: #fff;
   margin-bottom: 1.5rem;
 }
@@ -484,7 +484,7 @@ hr.rule { border: none; border-top: 1px solid var(--paper-dark); }
 
 .voice-role {
   font-size: 0.75rem;
-  color: rgba(255,255,255,0.55);
+  color: rgba(255,255,255,0.7);
   display: block;
 }
 
