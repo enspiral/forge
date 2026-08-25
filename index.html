@@ -733,6 +733,36 @@ hr.rule { border: none; border-top: 1px solid var(--paper-dark); }
 .tz-time { color: var(--ink); font-weight: 400; }
 .timing-note { margin-top: 0.75rem; font-size: 0.78rem !important; color: var(--ink-muted) !important; margin-bottom: 0 !important; }
 
+.timing-table-wrap { overflow-x: auto; }
+
+.timing-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.timing-table th {
+  text-align: left;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  font-weight: 600;
+  padding: 0 0.75rem 0.6rem 0;
+  border-bottom: 1px solid rgba(26,20,16,0.15);
+  white-space: nowrap;
+}
+
+.timing-table td {
+  padding: 0.5rem 0.75rem 0.5rem 0;
+  border-bottom: 1px solid rgba(26,20,16,0.08);
+  color: var(--ink);
+  font-weight: 300;
+  white-space: nowrap;
+}
+
+.timing-table td:first-child { color: var(--ink-muted); font-weight: 400; }
+
 /* ─── SEASON 3 ─── */
 .section-s3 {
   background: var(--paper);
@@ -949,9 +979,10 @@ footer a:hover { color: var(--fuchsia); }
 <!-- HERO -->
 <section class="hero">
   <div class="hero-main">
-    <p class="hero-eyebrow fade-up">Enspiral Forge &mdash; Season 2 starting 5 October</p>
+    <p class="hero-eyebrow fade-up">Enspiral Forge &mdash; Season 2: 5 October &ndash; 14 December</p>
     <h1 class="fade-up">Stop carrying it alone.</h1>
     <span class="hero-ship fade-up"><span>Ship it.</span></span>
+    <p class="hero-lead fade-up">Bring your most important work projects. Get them done better and faster with facilitated mutual support, accountability, and working sessions.</p>
     <p class="hero-lead fade-up">Do you have a goal your organisation is counting on you to deliver and no one with capacity to help you think it through? Spend the season with <strong>smart, experienced, warm-blooded humans</strong> who'll coach you, hold you to your word, and care whether it lands.</p>
     <div class="hero-actions fade-up">
       <a href="#join" class="btn-primary">Apply now</a>
@@ -1106,7 +1137,7 @@ footer a:hover { color: var(--fuchsia); }
   <div class="inner">
     <div>
       <h2>Join Season 2</h2>
-      <p>Season 2 starts <strong>5 October</strong>: Tuesday mornings for NZ and Australia. Applications are open now. If you have a goal your organisation needs you to deliver, and you want real people around you who'll help you do it, this is for you.</p>
+      <p>Season 2 runs <strong>5 October &ndash; 14 December</strong>: Monday afternoons and evenings for Australia and NZ. Applications are open now. If you have a goal your organisation needs you to deliver, and you want real people around you who'll help you do it, this is for you.</p>
 
       <div class="fee-block">
         <h4>Season fee</h4>
@@ -1146,12 +1177,29 @@ footer a:hover { color: var(--fuchsia); }
       </ul>
 
       <div class="timing-block">
-        <h4>Season 2 kick-off — 5 October</h4>
-        <div class="tz-row"><span class="tz-label">Auckland / Wellington (NZDT)</span><span class="tz-time">09:00 Tue</span></div>
-        <div class="tz-row"><span class="tz-label">Melbourne (AEDT)</span><span class="tz-time">07:00 Tue</span></div>
-        <div class="tz-row"><span class="tz-label">Central European Time</span><span class="tz-time">21:00–22:00 Mon night</span></div>
-        <p class="timing-note">22:00 CEST for the first two sessions, 21:00 CET from 2 November onward — the same moment in time throughout; only Europe's own clocks move.</p>
-        <p class="timing-note">Optimised for NZ and Australia timezones — Tuesday mornings, every fortnight.</p>
+        <h4>Season 2 kick-off — 5 October – 14 December</h4>
+        <div class="timing-table-wrap">
+          <table class="timing-table">
+            <thead>
+              <tr>
+                <th>Session</th>
+                <th>Barcelona (host)</th>
+                <th>Melbourne (AEDT)</th>
+                <th>Wellington (NZDT)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Mon 5 Oct</td><td>08:00 CEST</td><td>17:00</td><td>19:00</td></tr>
+              <tr><td>Mon 19 Oct</td><td>08:00 CEST</td><td>17:00</td><td>19:00</td></tr>
+              <tr><td>Mon 2 Nov</td><td>08:00 CET</td><td>18:00</td><td>20:00</td></tr>
+              <tr><td>Mon 16 Nov</td><td>08:00 CET</td><td>18:00</td><td>20:00</td></tr>
+              <tr><td>Mon 30 Nov</td><td>08:00 CET</td><td>18:00</td><td>20:00</td></tr>
+              <tr><td>Mon 14 Dec</td><td>08:00 CET</td><td>18:00</td><td>20:00</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="timing-note">Fixed for the host in Barcelona throughout — Melbourne and Wellington shift an hour later from 2 November, when Europe's daylight saving ends and Central European clocks fall back.</p>
+        <p class="timing-note">Optimised for NZ and Australia — Monday afternoons and evenings, every fortnight.</p>
       </div>
     </div>
   </div>
